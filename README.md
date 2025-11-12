@@ -8,7 +8,7 @@ vMCP (virtual Model Context Protocol) is an AI configuration and management plat
 (virtual) MCPs. Connect vMCPs to your AI clients (Claude, Chatgpt, VSCode) or to your agents built with any SDK and get the power of vMCPs.
 
 vMCP is both 
-- a specification that builds on and extends MCPs [vMCP.json](https://github.com/codesque16/1xn-vmcp/blob/main/backend/src/vmcp/data/1xndemo_config.json)
+- a specification that builds on and extends MCPs [vMCP.json](https://github.com/1xn-labs/1xn-vmcp/blob/main/backend/src/vmcp/data/1xndemo_config.json)
 - a platform to create and deploy vMCPs 
 
 ## Why We Built This
@@ -88,7 +88,7 @@ vmcp/
 
 ```bash
 # Clone the repository
-git clone https://github.com/codesque16/1xn-vmcp
+git clone https://github.com/1xn-labs/1xn-vmcp
 make build-frontend
 make run
 ```
@@ -181,7 +181,7 @@ vMCP is open-source software licensed under the [MIT License](LICENSE).
 
 ## 📞 Support
 
-- 🐛 [Report Issues](https://github.com/codesque16/1xn-vmcp/issues)
+- 🐛 [Report Issues](https://github.com/1xn-labs/1xn-vmcp/issues)
 - 📧 Email: contact@1xn.ai
 
 ---
