@@ -293,7 +293,7 @@ MIT License - see [LICENSE](../LICENSE) file.
 
 ## Support
 
-- 🐛 [Report Issues](https://github.com/codesque16/1xn-vmcp/issues)
+- 🐛 [Report Issues](https://github.com/1xn-labs/1xn-vmcp/issues)
 - 📧 Email: contact@1xn.ai
 - 📖 [Documentation](https://1xn.ai/docs)
 
