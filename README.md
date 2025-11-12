@@ -34,7 +34,7 @@ vMCP solves these problems by providing a layer of abstraction and a no-code con
 - 🐳 **Docker Ready**: Official Docker images for easy deployment
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/vmcp-arch.png" alt="vMCP Architecture" width="780"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/assets/img/vmcp-arch.png" alt="vMCP Architecture" width="780"/>
 </div>
 
 ## 🚀 Quickstart
@@ -104,7 +104,7 @@ This guide walks you through the process of creating and managing virtual MCP se
 After starting vMCP with `vmcp run`, navigate to `http://localhost:8000` in your browser. The vMCP home page provides a centralized dashboard where you can manage your virtual MCP configurations
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/1_home_page.png" alt="vMCP Home Page Dashboard" width="650"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/.assets/img/1_home_page.png" alt="vMCP Home Page Dashboard" width="650"/>
 </div>
 
 #### Step 2: Create a New vMCP
@@ -112,14 +112,14 @@ After starting vMCP with `vmcp run`, navigate to `http://localhost:8000` in your
 Click the **"+ Create Your First vMCP"** button to start building your virtual MCP. In the creation dialog, provide a name and description for your vMCP. A vMCP allows you to combine tools, resources, and prompts from multiple MCP servers into a single unified endpoint. You can add servers and configure tools later, so start with a descriptive name like "Coding_assistant" for a development-focused vMCP.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/2_create_vmcp.png" alt="Create New vMCP Dialog" width="650"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/.assets/img/2_create_vmcp.png" alt="Create New vMCP Dialog" width="650"/>
 </div>
 
 #### Step 3: Extend Your vMCP with MCP Servers
 
 After creating your vMCP, you'll see the "Add MCP Connector" button which displays a grid of well known remote mcp servers. You can browse and add the servers to Vmcp
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/3_extend_vmcp.png" alt="Extend vMCP with MCP Servers" width="650"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/.assets/img/3_extend_vmcp.png" alt="Extend vMCP with MCP Servers" width="650"/>
 </div>
 
 #### Step 4: Add a Custom Server
@@ -127,7 +127,7 @@ After creating your vMCP, you'll see the "Add MCP Connector" button which displa
 If you need to connect to a custom MCP server that's not in the community library, click **"Add Custom Server"** or use the custom server option. In the dialog, provide the server name, select the transport type (HTTP, SSE), enter the server URL, and optionally add environment variables and headers. This allows you to connect to any MCP-compatible server, including your own custom implementations.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/4_add_custom_server.png" alt="Add Custom MCP Server Dialog" width="650"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/.assets/img/4_add_custom_server.png" alt="Add Custom MCP Server Dialog" width="650"/>
 </div>
 
 #### Step 5: Filter and Edit Existing Tools
@@ -135,7 +135,7 @@ If you need to connect to a custom MCP server that's not in the community librar
 Once MCP servers are added to your vMCP, navigate to the **"Tools"** tab in the vMCP editor. Here you can view all available tools from your connected MCP servers. Use the search and filter options to find specific tools, enable or disable them, and override tool names and descriptions. You can also test individual tools or select/deselect all tools from a specific MCP server at once.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/5_filter_edit_existing_tools.png" alt="Filter and Edit Tools in vMCP" width="650"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/.assets/img/5_filter_edit_existing_tools.png" alt="Filter and Edit Tools in vMCP" width="650"/>
 </div>
 
 #### Step 6: Add Custom Tools and Prompts
@@ -143,7 +143,7 @@ Once MCP servers are added to your vMCP, navigate to the **"Tools"** tab in the 
 In addition to tools from MCP servers, you can create custom tools and prompts directly in your vMCP. Navigate to the **"Prompts"** tab to create programmable prompts that can invoke other tools, enabling user-controlled tool chaining. You can define prompt parameters, descriptions, and use the `@` syntax to mention params, config, tools, and resources. Similarly, you can create custom tools using Python snippets or REST APIs.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/6_add_custom_tools_prompts.png" alt="Add Custom Tools and Prompts" width="650"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/.assets/img/6_add_custom_tools_prompts.png" alt="Add Custom Tools and Prompts" width="650"/>
 </div>
 
 #### Step 7: Use Your vMCP
@@ -151,7 +151,7 @@ In addition to tools from MCP servers, you can create custom tools and prompts d
 Once your vMCP is configured and saved, you can use it with any MCP-compatible client. Copy the vMCP URL from the editor (e.g., `http://localhost:8000/private/Coding_asstistant/vmcp`) and connect to it using tools like MCP Inspector or directly from AI applications like Claude, Cursor, or Copilot. The vMCP will aggregate all your selected tools, resources, and prompts into a single unified endpoint.
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/sanket-1xn/images_pypi_1xn/main/assets/img/7_use_vmcp.png" alt="Using vMCP with MCP Inspector" width="650"/>
+  <img src="https://raw.githubusercontent.com/1xn-labs/1xn-vmcp/main/.assets/img/7_use_vmcp.png" alt="Using vMCP with MCP Inspector" width="650"/>
 </div>
 
 ## 📚 Documentation
