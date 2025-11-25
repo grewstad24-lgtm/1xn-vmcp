@@ -57,7 +57,7 @@ To install vMCP, run:
 
 #### Option 1: Using uvx (Recommended)
 ```bash
-uvx --from 1xn-vmcp vmcp run
+uvx --from 1xn-vmcp@latest vmcp run
 ```
 Or using uv
 
