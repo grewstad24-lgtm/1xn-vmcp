@@ -8,7 +8,7 @@ An open-source tool for composing, customizing and extending multiple MCP server
 Built for fine grained context-engineering
 - Create vMCP, Add MCP servers and Fine-tune
 - Extend with your own prompts, tools and resources
-- Connect any client (Claude, ChatGPT, Cursor, VScode, custom agents) to the vMCP
+- Connect any client (Claude, ChatGPT, Gemini, Cursor, VScode, custom agents) to the vMCP
 - Create multiple logical vMCPs based on your workflow and agent needs
 
 vMCP (virtual Model Context Protocol) is an AI configuration and management platform built on top of the [Model Context Protocol](https://modelcontextprotocol.io/docs/getting-started/intro). It is both :
